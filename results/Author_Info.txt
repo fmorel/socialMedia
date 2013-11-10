@@ -1,0 +1,87 @@
+Twitter name, real name, followers, following, tweets
+Ajerajian, Retail Buzz, 1179, 1910, 2258
+j2mconsulting, jmmegnin le furet, 1257, 802, 7062
+JeromeMONANGE, Jérôme MONANGE, 1962, 1984, 5317
+MartineauManuel, Manuel Martineau, 130, 268, 778
+mdialFR, Minter Dial, 640, 164, 2410
+THIERRYSPENCER, Thierry Spencer, 2243, 490, 1543
+JB_Mass, JB Massicot, 902, 512, 1935
+bpineau, Bertrand Pineau, 814, 407, 1492
+nicolas_prigent, Nicolas P, 959, 403, 4610
+THEINFORMINE, THE INFORMATION MINE, 1252, 1858, 8973
+LudoPassamonti, Ludovic Passamonti, 2904, 478, 2425
+MobileBehavior, MobileBehavior, 7426, 406, 4541
+keyneosoft, keyneosoft, 383, 334, 951
+lisedechamps, Lise Déchamps, 305, 272, 1189
+CaroVlaeminck, Caroline Vlaeminck, 739, 370, 3817
+FredMartinent, Frederic Martinent, 2663, 1851, 1976
+MickaelMESERE, Mickael MESERE, 14430, 1288, 4846
+_Ben_Thomas, Benjamin Thomas, 1146, 392, 6485
+_matthieudufour, Matthieu Dufour, 4261, 2825, 24042
+MikeHadjadj, #⃣ Mike Hadjadj, 5014, 4238, 890
+cdeniaud, Cédric DENIAUD, 20912, 680, 13990
+the_persuaders, The Persuaders, 1247, 242, 1303
+Nstoop, Nicolas Stoop, 687, 846, 3786
+stephpuchois, Stephane Puchois, 1629, 237, 11944
+clmorre, claire morre, 744, 262, 2618
+mariewhiteborne, Marie White Borne, 182, 391, 637
+loiclemeur, Loic Le Meur, 6297, 180, 200
+LSAconsommation, Magazine LSA, 8629, 171, 6985
+Capitaine, Capitaine Commerce, 10552, 205, 8190
+AnneBrenac, Anne Brenac, 422, 787, 565
+Milouchkova, Emilie Kovacs, 2743, 997, 7036
+altima, altima°, 3093, 196, 2990
+lelabecom, Le lab e-commerce, 1331, 83, 254
+bompard, Alexandre Bompard, 38955, 554, 733
+bkwalker, Brian Walker, 7468, 3691, 8886
+tlernon, Thierry Lernon, 31, 132, 196
+WEB2B2014, WEB2BUSINESS PREMIUM, 573, 125, 448
+julmalherbe, Julien Malherbe, 40, 173, 199
+plevasse, Philippe Levasseur, 48, 93, 182
+Echangeur, Echangeur, 1381, 130, 2230
+CommerceDigital, Commerce digital, 295, 104, 478
+DigitalTrends, Digital Trends, 83327, 554, 19429
+FevadActu, FEVAD , 934, 23, 177
+eMarketer, eMarketer, 160397, 2399, 9762
+mashable, Mashable, 3595741, 2730, 90710
+jlbnetwave, Jean-Luc Bernard, 753, 393, 2081
+MCommerceDaily, MobileCommerceDaily, 10869, 224, 6143
+latelier_na, L'Atelier NA, 1405, 508, 5631
+richardbranson, Richard Branson, 3639012, 3829, 4325
+PAGANINI_lauren, PAGANINI Laurence, 1471, 506, 6442
+lesmobilizers, Les Mobilizers, 1422, 460, 1369
+comScore, comScore, Inc., 99943, 29995, 8744
+SAP, SAP, 91121, 316, 8029
+SAPMobileSrvcs, SAP Mobile Services, 202, 362, 195
+SAPMobile, SAP Mobile, 15698, 476, 7418
+ibmmobile, IBM Mobile, 5908, 751, 2368
+IBM_France, IBM France, 3377, 465, 2385
+LucileHLG, Lucile Hyon, 1408, 1486, 2382
+RetailMolly, internetretailing, 6, 14, 0
+businessinsider, Business Insider, 366787, 89, 129393
+sewatch, Search Engine Watch, 63744, 2178, 27037
+laurentvergult, Laurent Vergult, 179, 78, 263
+MaloufDaniel, Daniel Malouf, 89, 101, 170
+PierreBersagol, Pierre Bersagol, 199, 121, 46
+kikemartinez100, Enrique Martinez, 113, 202, 156
+sergepap, serge papin, 4414, 338, 1608
+schelcher, Dominique Schelcher, 1589, 753, 6788
+Msoleau, mickael soleau, 34, 19, 28
+Cox33, Charles Helderwerdt, 1, 0, 2
+colinmaire, Stéphane Colinmaire, 845, 1172, 8086
+edequenetain, Erwan de Quénetain, 3, 6, 27
+sebsav, sebastien savariau, 47, 75, 17
+Cpourcelot, Christine Pourcelot, 8, 23, 16
+toutainp, Patrick Toutain, 45, 111, 636
+NleHerissier, Nicolas Le Herissier, 588, 927, 378
+ddecreme, Decreme DOMINIQUE, 11, 43, 3
+SophieMalka, Sophie Malka, 71, 69, 126
+TatianaPecanac, Tatiana Pecanac, 3238, 970, 25906
+aurelcie, aurélie couvret, 17, 66, 0
+mariskaya, Marie-Estelle Lenoir, 44, 174, 46
+mrosilio, Michel Rosilio, 29, 40, 26
+RomuFalce, Romuald Falce, 91, 308, 292
+davidteboul75, Teboul David, 60, 200, 517
+pat_chatelain, Patricia Chatelain, 15, 12, 0
+franck_z, Franck Zayan, 91, 43, 57
+tcadierno, Thina Cadierno, 1167, 1018, 2117
