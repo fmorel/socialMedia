@@ -44,7 +44,7 @@ if args.type == "followers":
 	#Check if ID list is already submitted, otherwise prepare file for saving
 	if args.ids:
 		idList = open(args.ids, 'r').readlines()
-		idList = map(lambda s: s.strip(), authorList)
+		idList = map(lambda s: int(s.strip()),idList)
 	else:
 		idList = []
 		idFile = open("ID_info.txt", "w")
