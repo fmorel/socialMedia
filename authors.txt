@@ -84,3 +84,5 @@ davidteboul75
 pat_chatelain
 franck_z
 tcadierno
+ibmretail
+FredCavazza
