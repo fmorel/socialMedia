@@ -16,6 +16,7 @@ authorList = map(lambda s: s.strip(), authorList)
 parser = argparse.ArgumentParser()
 parser.add_argument("type", help="What type of data to crunch", choices=["info", "followers"])
 parser.add_argument("-o", "--output", help="Output file", default="output.txt")
+parser.add_argument("-i", "--ids", help="ID list of user")
 args = parser.parse_args()
 
 outputFile = open(args.output, 'w')
@@ -36,11 +37,40 @@ if args.type == "info":
 ############################
 #Handle followers style output
 
+
 if args.type == "followers":
-	print "Followers output"
-	outputFile.write("Test\n")
-
-
-
-#Cleaning
+	#Header and build ID list
+	print 'Preliminary work ...'
+	#Check if ID list is already submitted, otherwise prepare file for saving
+	if args.ids:
+		idList = open(args.ids, 'r').readlines()
+		idList = map(lambda s: s.strip(), authorList)
+	else:
+		idList = []
+		idFile = open("ID_info.txt", "w")
+	
+	outputFile.write('Followers, ')
+	for author in authorList:
+		outputFile.write(author + ', ')
+		if args.ids is None:
+			print author
+			newID=api.GetUser(screen_name=author).GetId()
+			idList.append(newID)
+			idFile.write(str(newID)+'\n')
+	outputFile.write('\n')
+	print 'Done!'
+	
+	#Content
+	for author in authorList:
+		print author
+		followers = api.GetFollowerIDs(screen_name=author)
+		output = author + ', '
+		for ID_follower in idList:
+			if ID_follower in followers:
+				output = output + 'Y, '
+			else:
+				output = output + ', '
+		output = output + '\n'
+		outputFile.write(output)
+#Cleaning		
 outputFile.close()
