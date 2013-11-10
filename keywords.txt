@@ -1,0 +1,169 @@
+API 
+Android 
+BlackBerry 
+Bluetooth 
+CMS mobile 
+Emptoris 
+IBM Mobile First
+IBM Presence Zones 
+IBM Rational Test Workbench 
+IBM SPSS Augmented Shopping Advisor  
+IBM WebSphere   
+IBM Worklight
+IBM cast iron 
+IBM endpoint manager 
+IBM security
+M2M machine to machine 
+NFC 
+QR code 3D flash code 
+QR codes personnalises 
+RFID 
+RFID check out integre 
+ROI marketing mobile 
+RVM machine de retour
+Reconnaissance d'image 
+RoPo
+WebApp HTML 5 
+WebApps 
+Windows Phone  
+Xtify 
+app store 
+application en visio mobile 
+application mobile 
+applications multiplateformes 
+avis en ligne 
+benchmark de services mobiles 
+billetique NFC 
+billetique dematerialisee 
+bornes en magasin 
+bring your own device
+byod 
+caisse mobile 
+campagnes de notifications
+carte de fidelite dematerialisee  
+casier de retrait 
+chariot intelligent 
+cheques cadeaux dematerialises 
+click & collect 
+click and collect
+click to call 
+clickandcollect
+clickcollect
+commerce connecte  
+commerce mobile 
+comparateur de prix 
+connected store
+consigne  
+consumerisation  
+contenus personnalises sur mobile 
+coupon mobile 
+coupons dematerialises
+cross canal
+cross-canal
+crosscanal
+developpement natif 
+developpement web 
+digitalretail
+drive 
+e wallet 
+endpoint manager
+entreprise mobile 
+ergonomie mobile 
+experience client mobile  
+gamification  
+geolocalisation fine 
+geolocalisation in store 
+geomarketing 
+iOS 
+in store mobile 
+in store queue management 
+innovations mobiles 
+interaction mobile  
+internet en magasin 
+jeux sur mobile 
+localisation de magasin
+m couponing 
+m marketing
+m-commerce 
+m-couponing
+m-marketing
+m-publicite 
+mCommerce
+mPaiement 
+mPublicite
+magasin connecte
+magasin d'applications 
+magasin ephemere 
+marketing mobile 
+mobile commerce 
+mobile marketing
+mobile point of sales 
+mobile shopper assistant 
+mobile shopping apps 
+mobile shopping assistant
+mobile shopping list 
+mobinaute 
+mobinaute  
+multi canal
+multi-canal
+multicanal
+notifications 
+nowfactory
+nowfactory 
+offres promotionnelles sur mobile 
+omni canal
+omni-canal
+omnicanal
+operateurs partenariat 
+optimisation livraison 
+paiement mobile 
+paiement sans contact 
+parcours du mobinaute 
+pass commerce 
+plateforme mCRM 
+point de retrait 
+point relais 
+porte monnaie electronique 
+portefeuille en ligne 
+preparation des achats en ligne 
+publicite mobile 
+publicite mobile geociblee 
+push intelligent 
+real life context 
+realite augmentee 
+recette applications mobiles 
+return everywhere 
+reverse vending machine 
+rfid department store 
+sav en ligne 
+scan & save
+scan and save
+scansave
+service contextuel 
+services mobiles 
+show rooming 
+showrooming  
+site portail WAP 
+site portail i-mode 
+sites mobiles 
+solutions IBM
+store locator 
+store to web
+store-to-web
+storyboarding
+suivi de campagne mobile 
+suivi de livraison 
+t-commerce 
+tablette
+temps reel 
+thenowfactory 
+trans canal
+trans-canal
+transcanal 
+trusteer 
+vendeur augmente 
+vente evenementielle 
+web in store 
+web to store
+web-in-store
+web-to-store

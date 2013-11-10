@@ -11,22 +11,26 @@ keywordList = open('keywords.txt', 'r').readlines()
 authorList = map(lambda s: s.strip(), authorList)
 keywordList = map(lambda s: s.strip(), keywordList)
 
+outputFile = open('Author_Keywords.txt', 'w')
 #Build Header line
 output='Author'
 for keyword in keywordList:
 	output = output+ ', ' + keyword
+output = output + '\n'
+outputFile.write(output)
 
 #Build content
 for author in authorList:
-	output = output + '\n' + author
+	output = author
+	print '.'
 	for keyword in keywordList:
-		print author + ' ' + keyword
-		myQuery = 'http://otter.topsy.com/search.json?q={}%20from%3A{}&apikey=09C43A9B270A470B8EB8F2946A9369F3&window=d180'.format(keyword, author)
+		myQuery = 'http://otter.topsy.com/search.json?q={}%20from%3A{}&apikey=09C43A9B270A470B8EB8F2946A9369F3&window=d180'.format(urllib2.quote(keyword), author)
 		response = urllib2.urlopen(myQuery)
 		jsonData = json.loads(response.read())
 		total = jsonData['response']['total']
 		output = output + ', ' + str(total)
 		response.close()  # best practice to close the file
+	output = output + '\n'
+	outputFile.write(output)
 
-open ('Author_Keywords.txt', 'w').write(output)
-
+outputFile.close()
