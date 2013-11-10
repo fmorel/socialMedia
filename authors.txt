@@ -27,7 +27,6 @@ mariewhiteborne
 loiclemeur
 LSAconsommation
 Capitaine
-retail-intelligence
 AnneBrenac
 Milouchkova
 altima
@@ -84,3 +83,4 @@ RomuFalce
 davidteboul75
 pat_chatelain
 franck_z
+tcadierno
