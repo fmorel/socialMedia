@@ -1,5 +1,7 @@
+#!/usr/bin/python
 import twitter
 import argparse
+import time
 
 #Create twitter API with authentication from Beatrice's profile
 api = twitter.Api(
@@ -63,13 +65,33 @@ if args.type == "followers":
 	#Content
 	for author in authorList:
 		print author
-		followers = api.GetFollowerIDs(screen_name=author)
 		output = author + ', '
+
+		#Build follower list
+		cursor=-1
+		currentCount=5000
+		followers=[]
+		while currentCount == 5000:
+			try:
+				newFollowers = api.GetFollowerIDs(screen_name=author, cursor = cursor, total_count=5000)
+				currentCount = len(newFollowers)
+				cursor += currentCount
+				followers += newFollowers
+			except twitter.TwitterError as e:
+				#Max rate is error code 88
+				if e[0][0]['code'] == 88:
+					print "Max rate reached, waiting 15 minutes ..."
+					time.sleep(900)
+				else:
+					raise e
+		print len(followers)
+		#Check for every ID if it is in the follower list and update output line
 		for ID_follower in idList:
 			if ID_follower in followers:
 				output = output + 'Y, '
 			else:
 				output = output + ', '
+		#Clean line and write to file		
 		output = output + '\n'
 		outputFile.write(output)
 #Cleaning		

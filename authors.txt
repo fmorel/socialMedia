@@ -41,8 +41,6 @@ Echangeur
 CommerceDigital
 DigitalTrends
 FevadActu
-eMarketer
-mashable
 jlbnetwave
 MCommerceDaily
 latelier_na
@@ -57,8 +55,6 @@ ibmmobile
 IBM_France
 LucileHLG
 RetailMolly
-businessinsider
-sewatch
 laurentvergult
 MaloufDaniel
 PierreBersagol
