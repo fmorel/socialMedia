@@ -11,7 +11,7 @@ access_token_key="138811547-PdVqwI2Ne1D2n6gX4IHQnUrICXZl6zqxx79vL6Vm",
 access_token_secret="WTokWyRynBMa8FIWIHWWiGJR2bYgPWYcwkH6IowtYRtoy")
 
 #Extract author list
-authorList = open('authors.txt', 'r').readlines()
+authorList = open('newAuthors.txt', 'r').readlines()
 authorList = map(lambda s: s.strip(), authorList)
 
 #Handle command line argument
@@ -68,15 +68,10 @@ if args.type == "followers":
 		output = author + ', '
 
 		#Build follower list
-		cursor=-1
-		currentCount=5000
-		followers=[]
-		while currentCount == 5000:
+		while True:
 			try:
-				newFollowers = api.GetFollowerIDs(screen_name=author, cursor = cursor, total_count=5000)
-				currentCount = len(newFollowers)
-				cursor += currentCount
-				followers += newFollowers
+				followers = api.GetFollowerIDs(screen_name=author)
+				break
 			except twitter.TwitterError as e:
 				#Max rate is error code 88
 				if e[0][0]['code'] == 88:
@@ -84,6 +79,7 @@ if args.type == "followers":
 					time.sleep(900)
 				else:
 					raise e
+
 		print len(followers)
 		#Check for every ID if it is in the follower list and update output line
 		for ID_follower in idList:
